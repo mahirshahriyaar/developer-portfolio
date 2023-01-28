@@ -2,20 +2,35 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+/* universal font added, all font will be use as open sans*/
 
 .text-primary{
     color: #FD6E0A;
 }
+/* common color for website */
 
 .btn-primary{
     color: #FFFFFF;
     font-weight: 700;
+    /* font curvy */
     font-size: 20px;
     border: 0;
+    /* no border */
     padding: 18px 35px;
+    /* button padding top&bottom 18px left&right 35px */
     height: 64px;
     border-radius: 5px;
+    /* border round shape */
     background: #FD6E0A;
+}
+.btn-contact{
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 30px;
+    padding: 19px 23px 18px 30px;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
 }
 .header{
     background: #FFF8F3;
@@ -23,35 +38,47 @@
     background-repeat: no-repeat;
     background-position: bottom right, left;
 }
+
 /* header and navigation styles */
 nav{
+    /* nav is not a class (.) its a tag */
     display: flex;
+    /* h1 and ul would be in same line */
     justify-content: space-between;
+    /* create space between h1 and ul */
     padding: 50px 200px;
+    /* inside nav 50px for top and bottom and 200px for right and left */
 }
 .nav-title{
     font-weight: 800;
-    
     font-size: 45px;
 }
 nav ul{
     display: flex;
+    /* ul parent class and their child li would be in same line */
     align-items: center;
+    /* all list in center position */
 }
 nav li{
     list-style: none;
+    /* remove dot from li */
     margin-left: 50px;
+    /* create margin between li */
 }
+
 /* banner styles */
 .banner{
     display: flex;
+    /* text and image will be side by side */
     align-items: center;
+    /* text and image both will be center */
     margin: 0 200px;
+    /* top & bottom 0, right & left 200px */
 }
 .banner-title{
     font-weight: 700;
     font-size: 85px;
-
+    /* default font size 16px and font weight 400px */
 }
 .banner-sub-title{
     font-weight: 600;
