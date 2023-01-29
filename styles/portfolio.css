@@ -34,9 +34,13 @@
 }
 .header{
     background: #FFF8F3;
+    /* background color add */
     background-image: url('../images/header_bg.png'), url(../images/developer.png);
+    /* adding background image */
     background-repeat: no-repeat;
+    /* background will not repeat in random time */
     background-position: bottom right, left;
+    /* one image wil go bottom right another will go left */
 }
 
 /* header and navigation styles */
@@ -46,6 +50,7 @@ nav{
     /* h1 and ul would be in same line */
     justify-content: space-between;
     /* create space between h1 and ul */
+    /* items are evenly distributed in the line; first item is on the start line, last item on the end line */
     padding: 50px 200px;
     /* inside nav 50px for top and bottom and 200px for right and left */
 }
@@ -95,30 +100,35 @@ nav li{
 main{
     max-width: 1140px;
     margin: 0 auto;
+    /* center  */
 }
 /* about section styles */
 .about{
     text-align: center;
     margin-top: 130px;
-    background: #FFF8F3;
+    background: #ffd1b0;
     border-radius: 10px;
     padding: 130px 150px;
 }
 .section-title{
+    text-align: center;
     font-weight: 700;
     font-size: 35px;
-    margin-bottom: 50px;
-    
-    
+    margin-bottom: 30px;  
 }
 .section-description{
     color: #757575;
     font-size: 18px;
     margin-bottom: 30px;
+    
 }
 .about-info-container{
     display: flex;
+    /* side by side */
     justify-content: space-around;
+    /* search flexbox cheat sheet */
+    /* items are evenly distributed in the line with equal space around them. */
+    
 }
 .about .info-title{
     font-size: 20px;
@@ -129,6 +139,7 @@ main{
     font-size: 20px;
     color: #474747;
 }
+
 /* what i do styles */
 .what-i-do{
     margin-top: 130px;
